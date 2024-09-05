@@ -1,0 +1,14 @@
+{
+  "name": "vite-env-proxy-tutorial",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode localhost",
+    "build": "vite build --mode production --base=/xy/z",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  }
+}
